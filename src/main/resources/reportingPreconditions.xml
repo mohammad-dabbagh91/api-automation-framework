@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test Automation">
+
+<!--    <parameter name="OS" value="macOS"/> &lt;!&ndash;Choose the desired Operating system: Windows, macOS, or Linux &ndash;&gt;-->
+
+    <test name="Test Automation" verbose="10">
+
+        <classes>
+
+            <!--  <class name="preconditions"/>-->
+            <class name="helpers.ReportingPreconditions"/>
+
+        </classes>
+
+    </test>
+
+
+</suite>
